@@ -1,0 +1,40 @@
+{
+  "recomputed_pid_mean_scene_cos": 1.0,
+  "recomputed_scene_pairs": [
+    {
+      "mod1": "RGB",
+      "mod2": "IR",
+      "valid_classes": 500,
+      "mean_cos": 0.9200429916381836
+    },
+    {
+      "mod1": "RGB",
+      "mod2": "Thermal",
+      "valid_classes": 500,
+      "mean_cos": 0.8063957095146179
+    },
+    {
+      "mod1": "IR",
+      "mod2": "Thermal",
+      "valid_classes": 500,
+      "mean_cos": 0.813656210899353
+    }
+  ],
+  "bank_vs_recomputed_scene_cos": [
+    {
+      "mod": "RGB",
+      "valid_classes": 500,
+      "mean_cos": 0.9895705580711365
+    },
+    {
+      "mod": "IR",
+      "valid_classes": 500,
+      "mean_cos": 0.9886260032653809
+    },
+    {
+      "mod": "Thermal",
+      "valid_classes": 500,
+      "mean_cos": 0.9878051280975342
+    }
+  ]
+}

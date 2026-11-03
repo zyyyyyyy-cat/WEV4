@@ -1,0 +1,42 @@
+{
+  "tag": "v4_1000_full",
+  "config_file": "configs/GAC_UAD.yml",
+  "checkpoint": "./logs/GAC_1000_DDP/checkpoint_latest.pth",
+  "checkpoint_epoch": 120,
+  "output_dir": "./logs/gac_diag_1000_full",
+  "device": "cuda",
+  "num_classes": 500,
+  "modalities": [
+    "RGB",
+    "IR",
+    "Thermal"
+  ],
+  "query_counts": [
+    2135,
+    2135,
+    2135
+  ],
+  "gallery_counts": [
+    31203,
+    31203,
+    31203
+  ],
+  "query_feature_norm_mean": [
+    9.498412132263184,
+    9.498732566833496,
+    9.419625282287598
+  ],
+  "gallery_feature_norm_mean": [
+    9.514969825744629,
+    9.503816604614258,
+    9.416909217834473
+  ],
+  "bank_source": "checkpoint",
+  "aux_weight": 0.1,
+  "aux_tau": 0.03,
+  "summary_rows": 29,
+  "grad_done": true,
+  "train_images": 92133,
+  "wall_time_sec": 437.12,
+  "note": "rank uses same-camera exclusion; features are pre-BN CLS, L2; head CE/acc are on the relabelled training split; gradient is a last-block+norm proxy; no training/optimizer is created"
+}

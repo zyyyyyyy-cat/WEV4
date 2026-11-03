@@ -1,0 +1,56 @@
+{
+  "pid_scene": [
+    {
+      "mod": "RGB",
+      "valid_classes": 500,
+      "pid_scene_mean_cos": 0.9567445516586304,
+      "pid_scene_min_cos": 0.897881269454956,
+      "pid_scene_max_cos": 0.9810537099838257
+    },
+    {
+      "mod": "IR",
+      "valid_classes": 500,
+      "pid_scene_mean_cos": 0.9594414234161377,
+      "pid_scene_min_cos": 0.8806809782981873,
+      "pid_scene_max_cos": 0.9828435182571411
+    },
+    {
+      "mod": "Thermal",
+      "valid_classes": 500,
+      "pid_scene_mean_cos": 0.9193967580795288,
+      "pid_scene_min_cos": 0.8522575497627258,
+      "pid_scene_max_cos": 0.9765921831130981
+    }
+  ],
+  "scene_pairs": [
+    {
+      "mod1": "RGB",
+      "mod2": "IR",
+      "valid_classes": 500,
+      "mean_cos": 0.9156992435455322,
+      "min_cos": 0.6821458339691162,
+      "max_cos": 0.9748923182487488
+    },
+    {
+      "mod1": "RGB",
+      "mod2": "Thermal",
+      "valid_classes": 500,
+      "mean_cos": 0.8013914823532104,
+      "min_cos": 0.6269893050193787,
+      "max_cos": 0.9218195676803589
+    },
+    {
+      "mod1": "IR",
+      "mod2": "Thermal",
+      "valid_classes": 500,
+      "mean_cos": 0.809794008731842,
+      "min_cos": 0.6615166664123535,
+      "max_cos": 0.9467895030975342
+    }
+  ],
+  "pid_mean_scene_cos": 0.9992826581001282,
+  "id_norm_min": 0.9999998807907104,
+  "id_norm_max": 1.0000001192092896,
+  "scene_norm_min": 0.9999998807907104,
+  "scene_norm_max": 1.0000001192092896
+}
